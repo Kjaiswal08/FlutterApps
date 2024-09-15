@@ -86,7 +86,7 @@ class _ProductDetailsState extends State<ProductDetails> {
           const Spacer(),
           Center(
             child: Image(
-              height: 275,
+              height: 250,
               image: AssetImage(product["imageUrl"] as String)
             ),
           ),
